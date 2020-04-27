@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+body{
+    background-color: thistle;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 22px;
+}
+header{
+    background-image: url(../fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: blueviolet;
+}
+
+#menu{
+    padding: 50px 0;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+header #menu ul li{
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+ header #menu ul #logo{
+     margin-right: 40%;
+     margin-left: 100px;
+ }
+ header #menu ul li a{
+     text-decoration: none;
+     }
+ header #menu ul li a:hover{
+     text-decoration: underline;
+ }
+
+/* *************** */
+#main-container header main{
+    margin: 0 auto;
+   width: 1200px;
+}
+#main-container header main div{
+    display:inline-block;
+    vertical-align: middle;
+}
+#main-container header main .text h1{
+    font-size: 60px;
+}
+#main-container header main .text p{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+li>a{
+    background-color: rebeccapurple;
+    border: 0;
+    border-radius: 5px;
+    color: cornsilk;
+cursor: pointer;
+font-size: 25px;
+padding: 2px 9px;
+margin: 100px 10px;
+margin: 30px;
+}
+
+li>a{
+text-decoration: none;
+}
+li>a:hover{
+    color: black;
+text-decoration: underline;
+}
+
+#main-conteiner header main .image{
+    text-align: right;
+    width: px;
+}
+/************************/
+
+.layout{
+    margin: 100px auto;
+    width: 1200px;
+ 
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.layout h3{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.layout p{
+    padding: 25px 0;
+    line-height: 32px;
+}
+
+.layout-left .text{
+    width: 550px;
+}
+.layout-left .image{
+    width: 350px;
+    text-align: right;
+}
+.layout-right .text{
+    width: 550px;
+}
+.layout-right .image{
+    width: 350px;
+    text-align: center;
+}
+footer{
+    background-color:black;
+    padding: 100px 10px;
+    color: white;
+    text-align: center;
+}
